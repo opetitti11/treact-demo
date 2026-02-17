@@ -418,6 +418,71 @@ PRICING
     align-items: center;
 }
 
+.label,
+.label__two {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.label__two,
+.price__two,
+.time__two,
+.small__label--two {
+    color: lightgrey;
+}
+
+.price,
+.price__two {
+    font-size: 3rem;
+}
+
+.time,
+.time__two {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: rgb(160, 174, 192);
+}
+
+.small__label,
+.small__label--two {
+    margin-top: 0px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+}
+
+.items, 
+.item {
+    color: rgb(113, 128, 150);
+    margin-top: 1.25rem;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.item {
+    color: rgb(226, 232, 240);
+}
+
+.buy__one,
+.buy__two,
+.buy__three {
+    height: 50px;
+    width: 175px;
+}
+
+.buy__one {
+    background: linear-gradient(to right, rgb(56, 178, 172), rgb(129, 230, 217) );
+}
+
+.buy__two {
+    background-color: rgb(247, 250, 252);
+    color: rgb(100, 21, 255);
+}
+
+.buy__three {
+    background: linear-gradient(to right, rgb(245, 101, 101), rgb(254, 178, 178) );
+}
+
 /*
 
 TESTIMONIALS
@@ -456,6 +521,13 @@ TESTIMONIALS
     height: 50px;
     align-items: center;
     justify-content: center;
+    padding: 1rem;
+}
+
+.divider {
+    margin: 0.75rem;
+    border-right-width: 1px;
+    color: rgb(226, 232, 240)
 }
 
 .fa-arrow-left,
@@ -474,6 +546,33 @@ START
     overflow: hidden;
 }
 
+#start {
+    background-color: rgb(100 21 255);
+    margin: 0 32px;
+    border-radius: 10px;
+}
+
+.sub__title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: rgb(247, 250, 252);
+}
+
+.btn__get,
+.btn__contact {
+    width: 150px;
+    height: 60px;
+    font-size: 1rem;
+    margin: 10px;
+}
+.btn__get {
+    background-color: rgb(245, 101, 101);
+}
+
+.btn__contact {
+    color: rgb(247, 250, 252);
+    border: solid rgb(160, 174, 192);
+}
 /*
 
 FOOTER 
@@ -488,6 +587,47 @@ footer {
     overflow: hidden;
 }
 
+.last__title {
+    font-weight: 700;
+    margin: 0px;
+    font-size: 16px;
+    color: white;
+}
+
+.items__list {
+    color: white;
+    padding: 0.25rem;
+    border-bottom-width: 2px;
+    font-size: 14px;
+}
+
+.tlogo__white {
+    width: 32px;
+}
+
+.logo__name {
+    color: rgb(247, 250, 252);
+    font-size: 1.25rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.copyright {
+    color: rgb(203, 213, 224);
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.social {
+    margin: 100px 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgb(247, 250, 252);
+    padding: 10px;
+    color: rgb(26, 32, 44);
+}
 /* 
 
 MOBILE 
